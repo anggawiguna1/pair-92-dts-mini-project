@@ -83,7 +83,7 @@ const MovieList = () => {
             }}>
                 {
                     movies.map(movie => (
-                        <MovieCard key={movie.title} movie={movie}></MovieCard>
+                        <MovieCard key={movie.title} movieId={movie.id} movie={movie}></MovieCard>
                     ))
                 }
             </Box>

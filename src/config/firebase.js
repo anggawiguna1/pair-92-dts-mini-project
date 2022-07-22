@@ -3,12 +3,12 @@ import { getAuth } from 'firebase/auth';
 
 // TODO: replace with your own config
 const firebaseConfig = {
-    apiKey: "AIzaSyCGW_wCSv4fc9AMU-Sko1PqrthxJaa3C7w",
-    authDomain: "mini-project-1-d3102.firebaseapp.com",
-    projectId: "mini-project-1-d3102",
-    storageBucket: "mini-project-1-d3102.appspot.com",
-     messagingSenderId: "662688866501",
-    appId: "1:662688866501:web:d9eafe7aeea68ee957d0ac"
+  apiKey: "AIzaSyATODcZEknqPYPVTPK5dmKPxJZNC6n9tLc",
+  authDomain: "test-eeeaa.firebaseapp.com",
+  projectId: "test-eeeaa",
+  storageBucket: "test-eeeaa.appspot.com",
+  messagingSenderId: "608511246449",
+  appId: "1:608511246449:web:ef39dd3477325dc9655bd0"
 };
 
 const app = initializeApp(firebaseConfig);
